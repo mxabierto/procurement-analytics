@@ -5,6 +5,7 @@ var _ = require('lodash');
 var numeral = require('numeral');
 var d3 = require('d3');
 var utils = require('../../utils/utils');
+var i18n = require("../i18n");
 
 var BoxChart = require('../charts/box_chart');
 var BarChart = require('../charts/bar_chart');

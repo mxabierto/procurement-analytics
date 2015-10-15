@@ -7,6 +7,8 @@ var utils = require('../../utils/utils');
 var popover = require('../charts/popover');
 var $ = require('jquery');
 
+var i18n = require("../i18n");
+
 var ScatterplotChart = require('../charts/scatterplot_chart');
 
 var IndFairness = module.exports = React.createClass({

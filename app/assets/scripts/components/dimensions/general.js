@@ -6,6 +6,7 @@ var _ = require('lodash');
 var numeral = require('numeral');
 var LineChart = require('../charts/line_chart');
 var utils = require('../../utils/utils');
+var i18n = require("../i18n");
 
 var IndGeneral = module.exports = React.createClass({
 
