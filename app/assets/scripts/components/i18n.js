@@ -1,4 +1,4 @@
-i18n = require('i18next-client')
+var i18n = require('i18next-client')
 
 var enGB = require("../../../locales/en-GB.json");
 var esMX = require("../../../locales/es-MX.json");

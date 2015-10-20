@@ -4,6 +4,7 @@ var React = require('react/addons');
 var _ = require('lodash');
 var TimeChart = require('../charts/timechart');
 var utils = require('../../utils/utils');
+var i18n = require("../i18n");
 
 var IndTimeliness = module.exports = React.createClass({
 

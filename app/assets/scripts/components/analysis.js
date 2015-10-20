@@ -3,6 +3,7 @@ var React = require('react/addons');
 var Reflux = require('reflux');
 var Router = require('react-router');
 var _ = require('lodash');
+var i18n = require('./i18n');
 
 var analysisNlForm = require('../utils/analysis_nl_form');
 var actions = require('../actions/actions');

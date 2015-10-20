@@ -3,6 +3,7 @@ var React = require('react/addons');
 var Router = require('react-router');
 var RouteHandler = Router.RouteHandler;
 var Link = Router.Link;
+var i18n = require('./i18n');
 
 var App = module.exports = React.createClass({
   render: function() {

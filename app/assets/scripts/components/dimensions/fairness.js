@@ -7,6 +7,8 @@ var utils = require('../../utils/utils');
 var popover = require('../charts/popover');
 var $ = require('jquery');
 
+var i18n = require("../i18n");
+
 var ScatterplotChart = require('../charts/scatterplot_chart');
 
 var IndFairness = module.exports = React.createClass({
@@ -183,9 +185,9 @@ var IndFairness = module.exports = React.createClass({
 
         <div className="col-intro">
           <section className="tile">
-            <h1 className="tile-title">{i18n.t("Dimension.Fairness.Title")}</h1>
+            <h1 className="tile-title">{i18n.t("Dimensions.Fairness.Title")}</h1>
             <div className="tile-body">
-              <p>{i18n.t("Dimension.Fairness.Description")}</p>
+              <p>{i18n.t("Dimensions.Fairness.Description")}</p>
             </div>
           </section>
         </div>
