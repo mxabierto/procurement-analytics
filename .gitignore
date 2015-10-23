@@ -4,6 +4,7 @@
 .sass-cache
 node_modules
 .tmp
+app/bower_components
 
 # Local
 .resources
