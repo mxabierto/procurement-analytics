@@ -1,0 +1,23 @@
+{
+  "name": "mx-dashboard",
+  "version": "0.1.0-beta",
+  "homepage": "https://github.com/mxabierto/procurement-analytics",
+  "authors": [
+    "Contributors"
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dgm-footer": "mxabierto/dgm-footer#~0.0.2",
+    "dgm-navbar": "mxabierto/dgm-navbar#~0.0.5",
+    "polymer": "~1.2.0",
+    "webcomponentsjs": "~0.7.15"
+  }
+}
