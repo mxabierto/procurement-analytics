@@ -1,0 +1,14 @@
+{
+    "name"          : "dgm-navbar",
+    "version"       : "0.0.4",
+    "license"       : "MIT",
+    "main"          : "dgm-navbar.html",
+    "dependencies"  : {
+        "polymer"   : "Polymer/polymer#^1.1"
+    },
+    "keywords"      : [
+        "datos.gob.mx",
+        "dgm",
+        "dgm-navbar"
+    ]
+}
