@@ -17,10 +17,10 @@ var About = module.exports = React.createClass({
           <div className="inner">
             <div className="prose">
               <h2>El proyecto</h2>
-              <p>Este tablero ofrece un análisis de datos públicos de contratación del Gobierno de México.
-                 El proyecto ha sido patrocinado por el Banco Mundial y diseñado por Development Seed.</p>
+              <p>Este tablero ofrece un análisis de datos públicos de contrataciones del Gobierno de México.
+                 El proyecto ha sido apoyado por el Banco Mundial y diseñado por Development Seed.</p>
               <p>Los tableros hacen uso de datos públicos de Compranet, el sitio central del Gobierno de México para contratos y licitaciones.
-                 Estos datos son evaluados bajo una metodología para evaluar resultados en contrataciones públicas.</p>
+                 Estos datos son evaluados bajo una metodología para analizar resultados en contrataciones públicas, y pueden ser seccionados por tamaño del proveedor y el procedimiento de contratación.</p>
               <p>La metodología toma en consideración cinco dimensiones de desempeño en contrataciones públicas:</p>
               <ol>
                 <li>Puntualidad</li>
@@ -29,8 +29,7 @@ var About = module.exports = React.createClass({
                 <li>Calidad</li>
                 <li>Transparencia</li>
               </ol>
-              <p>Las primeras tres de estas dimensiones son analizadas en este portal; las otras dos podrán ser evaluadas cuando estén disponibles más datos.</p>
-              <p>También es posible seccionar los datos por <strong>tamaño del proveedor</strong> o el <strong>procedimiento de contratación</strong>.</p>
+              <p>Las primeras tres de estas dimensiones son analizadas en este portal; las otras dos se estarán integrando durante la implementación del estándar de contrataciones abiertas.</p>
               <h2>Fuentes de datos</h2>
               <p><strong><a href="https://compranet.funcionpublica.gob.mx/">Compranet</a></strong> es la fuente principal de datos que alimenta estos tableros.</p>
               <h2>Licencia de uso</h2>
