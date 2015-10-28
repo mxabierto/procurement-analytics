@@ -286,9 +286,10 @@ a:active{
 
 .page-footer {
   /* margin-top: 3rem; */
+  background-color: #f6f6f6;
   padding-top: 3rem;
   padding-bottom: 2rem;
-  box-shadow: inset 0 1px 0 0 $brdr-rgba;
+  /* box-shadow: inset 0 1px 0 0 $brdr-rgba; */
   > .inner {
     @extend .row;
     @extend .clearfix;
