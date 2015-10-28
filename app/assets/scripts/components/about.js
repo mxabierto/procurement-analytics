@@ -40,14 +40,6 @@ var About = module.exports = React.createClass({
             </div>
           </div>
         </div>
-        <footer className="page-footer">
-          <div className="inner">
-            <ul className="credits-list">
-              <li className="wbg-logo-wrapper"><a href="http://www.worldbank.org/" title="Visit The World Bank"><img alt="The World Bank logo" src="assets/graphics/layout/wbg-logo-pos.svg" width="160" height="32" /><span>The World Bank</span></a></li>
-              <li className="ds-logo-wrapper"><a href="https://developmentseed.org/" title="Visit Development Seed"><img alt="Development Seed logo" src="assets/graphics/layout/ds-logo-pos.svg" width="188" height="32" /><span>Development Seed</span></a></li>
-            </ul>
-          </div>
-        </footer>
       </article>
     );
   }
